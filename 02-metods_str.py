@@ -2,7 +2,11 @@
 
 palabra = "Hola Mundo"
 
+# Acceso a un carcater por medio del indice
 print(palabra[5])
+
+# Medir longitud (cantidad de elementos) de un string y otras colecciones
+print(len(palabra))
 
 # lower()
 print(palabra.lower())
@@ -17,6 +21,7 @@ print(nombre.capitalize())
 # split
 planeta = 'Saturno-Venus-Urano'
 print(planeta.split())
+print(planeta.split('-'))
 
 # replace
 saludo = 'hola Sebastian'
